@@ -4,7 +4,7 @@ APP_NAME=mblog-latest.jar
 BASE_PATH=$(cd `dirname $0`; pwd)
 
 echo 'cd $BASE_PATH'
-
+#程序开始运行了
 usage() {
     echo "case: sh run.sh [start|stop|restart|status]"
     exit 1
